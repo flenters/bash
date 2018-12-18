@@ -11,8 +11,8 @@ select opt in "${options[@]}" "Quit"; do
     case "$REPLY" in
 
     1 ) ~/tools/Postman/./Postman;;
-    2 ) sudo cp projects/phoenixui/dist/phoenixui.war /home/spjadmin/share/INT/install/wildfly-10.0.0.Final/domain/servers/phoenix_dev/deployment/;;
-    3 )  ~/install/jboss/wildfly-10.0.0.Final/bin/./standalone.sh -c standalone-ibd.xml;;
+    2 ) sudo cp file.test /home/user/;;
+    3 )  ~/install/jboss/wildfly-10.0.0.Final/bin/./standalone.sh -c standalone.xml;;
 
     $(( ${#options[@]}+1 )) ) echo "Goodbye!"; break;;
     *) echo "Invalid option. Try another one.";continue;;
