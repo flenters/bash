@@ -6,4 +6,4 @@ sendmail.sh - super basic script to attached a file and send an email can be use
 
 menu.sh interactive bash menu
 
-bash_colors.sh - adds some color to you bash scripts
+bash_colors.sh - adds some color to you bash scripts ANSI color codes
